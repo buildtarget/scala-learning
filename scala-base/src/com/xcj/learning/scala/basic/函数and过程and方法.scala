@@ -12,7 +12,7 @@ object 函数and过程and方法 {
     val func:(Int, Int) => Int  //函数类型
       = (x:Int, y:Int) => x + y //函数体
 
-    println(s"我是函数: ${func(1, 2)}")
+    println(s"我是函数算出来的: ${func(1, 2)}")
 
     // 过程
     def box(s: String)
